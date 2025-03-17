@@ -1,0 +1,92 @@
+{
+    "dmaphey" : [
+        {
+    "_id": "post_id_1",
+    "content": "Excited to start my new project! #coding #developer",
+    "mediaUrl": "https://example.com/images/project.jpg",
+    "mediaType": "image",  
+    "createdAt": "2025-03-17T08:00:00Z",
+    "updatedAt": "2025-03-17T08:30:00Z",
+    "likes": [
+      {
+        "userId": "user_id_2",
+        "timestamp": "2025-03-17T08:10:00Z"
+      },
+      {
+        "userId": "user_id_3",
+        "timestamp": "2025-03-17T08:15:00Z"
+      }
+    ],
+    "comments": [
+      {
+        "commentId": "comment_id_1",
+        "userId": "user_id_4",
+        "content": "That's awesome! Looking forward to updates.",
+        "createdAt": "2025-03-17T08:20:00Z"
+      },
+      {
+        "commentId": "comment_id_2",
+        "userId": "user_id_5",
+        "content": "Good luck with the project!",
+        "createdAt": "2025-03-17T08:25:00Z"
+      }
+    ],
+    "tags": ["coding", "developer"],
+    "location": {
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "placeName": "New York, NY"
+    },
+    "visibility": "public",  
+    "shareCount": 12,
+    "reportCount": 0
+        }
+    ] ,
+    
+    "robfust" : [
+    {
+    "_id": "post_id_1",
+    "content": "Excited to start my new project! #coding #developer",
+    "mediaUrl": "https://example.com/images/project.jpg",
+    "mediaType": "image",  
+    "createdAt": "2025-03-17T08:00:00Z",
+    "updatedAt": "2025-03-17T08:30:00Z",
+    "likes": [
+        {
+        "userId": "user_id_2",
+        "timestamp": "2025-03-17T08:10:00Z"
+        },
+        {
+        "userId": "user_id_3",
+        "timestamp": "2025-03-17T08:15:00Z"
+        }
+    ],
+    "comments": [
+        {
+        "commentId": "comment_id_1",
+        "userId": "user_id_4",
+        "content": "That's awesome! Looking forward to updates.",
+        "createdAt": "2025-03-17T08:20:00Z"
+        },
+        {
+        "commentId": "comment_id_2",
+        "userId": "user_id_5",
+        "content": "Good luck with the project!",
+        "createdAt": "2025-03-17T08:25:00Z"
+        }
+    ],
+    "tags": ["coding", "developer"],
+    "location": {
+        "latitude": 40.7128,
+        "longitude": -74.0060,
+        "placeName": "New York, NY"
+    },
+    "visibility": "public",  
+    "shareCount": 12,
+    "reportCount": 0
+        }
+    ]
+      
+    
+  }
+  

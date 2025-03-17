@@ -1,0 +1,36 @@
+{
+    "_id": "user_id_1",
+    "username": "john_doe",
+    "email": "john@example.com",
+    "passwordHash": "hashed_password",
+    "profile": {
+      "fullName": "John Doe",
+      "bio": "Coffee enthusiast and tech lover.",
+      "avatarUrl": "https://example.com/avatar.jpg",
+      "location": "New York, NY",
+      "website": "https://johndoe.com",
+      "joinedAt": "2025-03-17T10:15:30Z"
+    },
+    "stats": {
+      "postCount": 152,
+      "likeCount": 3078
+    },
+    "connections": {
+      "followers": ["user_id_2", "user_id_3", "user_id_4"],
+      "following": ["user_id_5", "user_id_6"]
+    },
+    "activity": {
+      "recentPosts": ["post_id_1", "post_id_2", "post_id_3"],
+      "recentLikes": ["post_id_4", "post_id_5"],
+      "recentComments": ["comment_id_1", "comment_id_2"]
+    },
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "notificationsEnabled": true,
+      "privacy": "public"
+    },
+    "savedPosts": ["post_id_6", "post_id_7", "post_id_8"],
+    "posts": ["post_id_1", "post_id_2"]
+  }
+  
