@@ -1,0 +1,94 @@
+## User
+
+```json
+{
+  "ScreenName": "String",
+  "Username": "String",
+  "Password": "String",
+  "Skills": ["String"],
+  "Projects": ["String"],
+  "Favorites": ["String"],
+  "Position": ["String"],
+  "ProfilePhoto": ["String"],
+  "Friends": ["String"],
+  "PendingFriends": ["String"]
+}
+```
+
+## Inbox
+
+```json
+{
+  "Username": "String",
+  "Messages": {
+    "Inbox": [
+      {
+        "Username": "Drew",
+        "chat": [
+          {"type": "text", "message": "what’s poppin"},
+          {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"}
+        ]
+      },
+      {
+        "Username": "John",
+        "chat": [
+          {"type": "text", "message": "what’s poppin"},
+          {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
+        ]
+      }
+    ]
+  }
+}
+```
+
+## Project
+
+```json
+{
+  "ProjectName": "String",
+  "CreatedAt": "Date",
+  "Creator": "String",
+  "TechStack": ["String"],
+  "ProjectPhoto": ["String"],
+  "Content": {
+    "content": [
+      {"type": "text", "message": "Hello, here's an image:"},
+      {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
+      {"type": "text", "message": "Now here's some more text."},
+      {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
+    ]
+  },
+  "Requests": ["String"],
+  "Participants": ["String"]
+}
+```
+
+## Post
+
+```json
+{
+  "Username": "String",
+  "CreatedAt": "Date",
+  "Content": {
+    "content": [
+      {"type": "text", "message": "Hello, here's an image:"},
+      {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
+      {"type": "text", "message": "Now here's some more text."},
+      {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
+    ]
+  },
+  "LikedByUsers": ["String"],
+  "Comments": {
+    "comments": [
+      {
+        "Username": "rmfust20",
+        "Text": "This is a comment"
+      },
+      {
+        "Username": "Drew",
+        "Text": "Yo what’s up"
+      }
+    ]
+  },
+  "Reposted": "Boolean"
+}
