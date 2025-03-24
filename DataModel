@@ -7,35 +7,29 @@
   "skills": ["String"],
   "projects": ["String"],
   "favorites": ["String"],
-  "position": ["String"],
-  "profilePhoto": ["String"],
+  "position": "String",
+  "profilePhoto": "String",
   "friends": ["String"],
   "pendingFriends": ["String"]
-}
-
-## inbox
-
-{
-  "username": "String",
-  "messages": {
-    "inbox": [
-      {
-        "username": "Drew",
-        "chat": [
-          {"type": "text", "message": "what’s poppin"},
-          {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"}
-        ]
-      },
-      {
-        "username": "John",
-        "chat": [
-          {"type": "text", "message": "what’s poppin"},
-          {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
-        ]
-      }
-    ]
+  "inbox : {
+        messages {
+            message {
+              username : "String",
+              content {
+                "content": [
+                            {"type": "text", "message": "Hello, here's an image:"},
+                            {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
+                            {"type": "text", "message": "Now here's some more text."},
+                            {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
+                          ]
+          }
+        }
+    }
   }
 }
+
+
+
 
 ## project
 
@@ -76,6 +70,7 @@
       {
         "username": "rmfust20",
         "text": "This is a comment"
+        "replies" : [comment]
       },
       {
         "username": "Drew",
