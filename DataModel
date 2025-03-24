@@ -12,19 +12,17 @@
   "friends": ["String"],
   "pendingFriends": ["String"]
   "inbox : {
-        messages {
-            message {
+        messages [
               username : "String",
-              content {
-                "content": [
+              content [
                             {"type": "text", "message": "Hello, here's an image:"},
                             {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
                             {"type": "text", "message": "Now here's some more text."},
                             {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
-                          ]
+                      ]
           }
         }
-    }
+    ]
   }
 }
 
@@ -39,14 +37,12 @@
   "creator": "String",
   "techStack": ["String"],
   "projectPhoto": ["String"],
-  "content": {
-    "content": [
+  "content": [ 
       {"type": "text", "message": "Hello, here's an image:"},
       {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
       {"type": "text", "message": "Now here's some more text."},
       {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
-    ]
-  },
+    ],
   "requests": ["String"],
   "participants": ["String"]
 }
@@ -56,27 +52,19 @@
 {
   "username": "String",
   "createdAt": "Date",
-  "content": {
-    "content": [
+  "content": [
       {"type": "text", "message": "Hello, here's an image:"},
       {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
       {"type": "text", "message": "Now here's some more text."},
       {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
-    ]
-  },
+    ],
   "likedByUsers": ["String"],
-  "comments": {
-    "comments": [
+  "comments": [
       {
         "username": "rmfust20",
         "text": "This is a comment"
         "replies" : [comment]
-      },
-      {
-        "username": "Drew",
-        "text": "Yo what’s up"
-      }
-    ]
-  },
+     }
+  ],
   "reposted": "Boolean"
 }
