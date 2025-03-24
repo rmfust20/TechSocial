@@ -3,12 +3,12 @@
 import express from "express";
 const router = express.Router();
 import User from "../Models/User.mjs"
-import { checkUser } from "../RouterControllers/userController.mjs";
+import { checkUser, addUser } from "../RouterControllers/userController.mjs";
 
 export default router;
 
 //Create a user
-router.get("/api/user", async (req, res) => {
+router.post("/create", async (req, res) => {
     //Must check if the user exists
     const recieved = req.body;
     //body must be all of the information about the user on creation... See user model 
@@ -18,10 +18,10 @@ router.get("/api/user", async (req, res) => {
         res.json("User Already Exists")
         res.status(404)
     }else{
-        res.json({})
+        addUser(user)
+        res.json("User Added")
         res.status(200)
     }
-
 });
 
 
