@@ -20,10 +20,9 @@
                             {"type": "text", "message": "Now here's some more text."},
                             {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
                       ]
-          }
-        }
-    ]
-  }
+        
+        ]
+    }
 }
 
 
@@ -32,6 +31,7 @@
 ## project
 
 {
+  
   "projectName": "String",
   "createdAt": "Date",
   "creator": "String",
@@ -50,6 +50,7 @@
 ## post
 
 {
+  "id": UUID
   "username": "String",
   "createdAt": "Date",
   "content": [
