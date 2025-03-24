@@ -1,36 +1,33 @@
-## User
+## user
 
-```json
 {
-  "ScreenName": "String",
-  "Username": "String",
-  "Password": "String",
-  "Skills": ["String"],
-  "Projects": ["String"],
-  "Favorites": ["String"],
-  "Position": ["String"],
-  "ProfilePhoto": ["String"],
-  "Friends": ["String"],
-  "PendingFriends": ["String"]
+  "screenName": "String",
+  "username": "String",
+  "password": "String",
+  "skills": ["String"],
+  "projects": ["String"],
+  "favorites": ["String"],
+  "position": ["String"],
+  "profilePhoto": ["String"],
+  "friends": ["String"],
+  "pendingFriends": ["String"]
 }
-```
 
-## Inbox
+## inbox
 
-```json
 {
-  "Username": "String",
-  "Messages": {
-    "Inbox": [
+  "username": "String",
+  "messages": {
+    "inbox": [
       {
-        "Username": "Drew",
+        "username": "Drew",
         "chat": [
           {"type": "text", "message": "what’s poppin"},
           {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"}
         ]
       },
       {
-        "Username": "John",
+        "username": "John",
         "chat": [
           {"type": "text", "message": "what’s poppin"},
           {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
@@ -39,18 +36,16 @@
     ]
   }
 }
-```
 
-## Project
+## project
 
-```json
 {
-  "ProjectName": "String",
-  "CreatedAt": "Date",
-  "Creator": "String",
-  "TechStack": ["String"],
-  "ProjectPhoto": ["String"],
-  "Content": {
+  "projectName": "String",
+  "createdAt": "Date",
+  "creator": "String",
+  "techStack": ["String"],
+  "projectPhoto": ["String"],
+  "content": {
     "content": [
       {"type": "text", "message": "Hello, here's an image:"},
       {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
@@ -58,18 +53,16 @@
       {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
     ]
   },
-  "Requests": ["String"],
-  "Participants": ["String"]
+  "requests": ["String"],
+  "participants": ["String"]
 }
-```
 
-## Post
+## post
 
-```json
 {
-  "Username": "String",
-  "CreatedAt": "Date",
-  "Content": {
+  "username": "String",
+  "createdAt": "Date",
+  "content": {
     "content": [
       {"type": "text", "message": "Hello, here's an image:"},
       {"type": "image", "url": "http://example.com/image1.jpg", "alt": "First image"},
@@ -77,18 +70,18 @@
       {"type": "image", "url": "http://example.com/image2.jpg", "alt": "Second image"}
     ]
   },
-  "LikedByUsers": ["String"],
-  "Comments": {
+  "likedByUsers": ["String"],
+  "comments": {
     "comments": [
       {
-        "Username": "rmfust20",
-        "Text": "This is a comment"
+        "username": "rmfust20",
+        "text": "This is a comment"
       },
       {
-        "Username": "Drew",
-        "Text": "Yo what’s up"
+        "username": "Drew",
+        "text": "Yo what’s up"
       }
     ]
   },
-  "Reposted": "Boolean"
+  "reposted": "Boolean"
 }
