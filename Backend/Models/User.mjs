@@ -7,8 +7,8 @@ const userSchema = new mongoose.Schema({
     skills: {type:Array, required: true},
     projects: {type:Array, required: false},
     favorites: {type:Array, required: false},
-    position: {type:Array, required: false},
-    profilePhoto:{type:Array, required: false},
+    position: {type:String, required: false},
+    profilePhoto:{type:String, required: false},
     friends:{type:Array, required: false}
 });
 
